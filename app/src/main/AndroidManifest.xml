@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tution">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/tutionicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DailyAttendanceview"
+            android:label="Absentes"/>
+        <activity
+            android:name=".DailyAttendance"
+            android:label="Attendance" />
+        <activity
+            android:name=".FeesStatus"
+            android:label="Fee" />
+        <activity
+            android:name=".viewstudentsmarks"
+            android:label="Marks" />
+        <activity
+            android:name=".Studentprogress"
+            android:label="Tests Written" />
+        <activity
+            android:name=".sendsmstoone"
+            android:label="SMS" />
+        <activity
+            android:name=".Sendsmstoall"
+            android:label="SMS" />
+        <activity
+            android:name=".EnterMarks"
+            android:label="Marks" />
+        <activity
+            android:name=".TestLists"
+            android:label="Tests" />
+        <activity
+            android:name=".Editstudents"
+            android:label="Student" />
+        <activity
+            android:name=".EditUserdetails"
+            android:label="User" />
+        <activity
+            android:name=".StudentProfile"
+            android:label="Profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentsList"
+            android:label="Students" />
+        <activity
+            android:name=".school"
+            android:label="Schools" />
+        <activity
+            android:name=".Addstudents"
+            android:label="Add Students" />
+        <activity
+            android:name=".Classeslist"
+            android:label="Classes" />
+        <activity
+            android:name=".PassReset"
+            android:label="Reset Password" />
+        <activity
+            android:name=".MainPage"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Profile"
+            android:label="Profile" />
+        <activity
+            android:name=".Registration"
+            android:label="Register" />
+        <activity android:name=".slideractivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="Tution" />
+    </application>
+
+</manifest>

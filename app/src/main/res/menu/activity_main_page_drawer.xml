@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_add"
+            android:icon="@drawable/ic_add"
+            android:title="Add Students" />
+        <item
+            android:id="@+id/nav_show"
+            android:icon="@drawable/ic_view_list"
+            android:title="View Students" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@drawable/ic_send"
+            android:title="Send Messages" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Daily Activities">
+            <menu>
+                <item
+                    android:id="@+id/take_attendence"
+                    android:icon="@drawable/ic_face"
+                    android:title="Take Attendence" />
+                <item
+                    android:id="@+id/nav_view_attendence"
+                    android:icon="@drawable/ic_visibility"
+                    android:title="View Attendence" />
+
+            </menu>
+
+        </item>
+    </group>
+
+</menu>

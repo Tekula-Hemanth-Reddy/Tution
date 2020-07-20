@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginStart="0dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="75dp">
+                <ImageView
+                    android:id="@+id/rtprofile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/ic_person_black" />
+
+            </androidx.cardview.widget.CardView>
+            <EditText
+                android:id="@+id/rtname"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Full Name"
+                android:inputType="textPersonName"/>
+            <EditText
+                android:id="@+id/rtmail"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"/>
+            <EditText
+                android:id="@+id/rtphno"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Phone no"
+                android:inputType="phone"/>
+            <EditText
+                android:id="@+id/rtplace"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Place"
+                android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/rtcp"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:hint="Current Position"
+                android:inputType="textPersonName" />
+            <EditText
+                android:id="@+id/rtpass"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:importantForAutofill="no"  />
+            <EditText
+                android:id="@+id/rtrepass"
+                android:layout_width="348dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:ems="10"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:importantForAutofill="no"  />
+            <TextView
+                android:id="@+id/rtalready"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginLeft="20dp"
+                android:text="already a user ?"
+                android:textAllCaps="false"
+                android:textColor="#2196F3"
+                android:textSize="18sp" />
+            <Button
+                android:id="@+id/rtre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="250dp"
+                android:layout_marginLeft="20dp"
+                android:text="Register"/>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

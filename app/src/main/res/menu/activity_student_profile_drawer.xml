@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_stu_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_stu_edit"
+            android:icon="@drawable/ic_edit_black"
+            android:title="Edit Details" />
+        <item
+            android:id="@+id/nav_stu_add_marks"
+            android:icon="@drawable/ic_add"
+            android:title="Add Marks" />
+        <item
+            android:id="@+id/nav_stu_view_progress"
+            android:icon="@drawable/ic_visibility"
+            android:title="View Progress" />
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Care">
+        <menu>
+            <item
+                android:id="@+id/fee_status"
+                android:icon="@drawable/ic_money"
+                android:title="Fee Status " />
+            <item
+                android:id="@+id/nav_stu_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send Messages" />
+
+        </menu>
+        </item>
+
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:title="Information">
+            <menu>
+                <item
+                    android:id="@+id/remove_student"
+                    android:icon="@drawable/ic_delete"
+                    android:title="Remove Student " />
+
+            </menu>
+        </item>
+
+    </group>
+</menu>

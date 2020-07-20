@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Teach</string>
+
+    <string name="no_of_attempts_remaining">No.of attempts remainning</string>
+    <string name="new_user">New User?</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="e_mail">Mail</string>
+
+
+    <string name="my_preference">"com.abc.com.MyPref"</string>
+    <string name="my_preferencekey">"com.abc.com.MyPrefKey"</string>
+
+    <string name="title_activity_main_page">MainPage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+
+</resources>
